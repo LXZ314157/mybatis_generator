@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    username: root
+    password: 123!@#
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.211.70:3306/mytab?useUnicode=true&characterEncoding=UTF-8&characterSetResults=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+
